@@ -4,3 +4,6 @@
 
 nb_articles = 13
 prix_ht = 42.75
+taxe = 0.077
+
+print("Le prix TTC est de",round(nb_articles*prix_ht*(1+taxe),2),"chf.")

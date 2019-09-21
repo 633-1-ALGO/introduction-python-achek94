@@ -4,3 +4,10 @@
 
 a = 11
 b = 42
+c : int
+
+c = a
+a = b
+b = c
+
+print("a :",a,"\r\nb :",b)

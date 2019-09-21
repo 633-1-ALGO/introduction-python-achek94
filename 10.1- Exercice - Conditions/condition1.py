@@ -4,3 +4,14 @@
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
 c = 42
 d = 31
+
+def valeur(a):
+    if a > 0:
+        print(a, "est positif")
+    elif c < 0:
+        print(a, "est négatif")
+    else:
+        print(a, "est nul")
+
+valeur(c)
+valeur(d)
